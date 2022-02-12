@@ -1,0 +1,26 @@
+{
+  "name": "unreal-m-utils",
+  "version": "0.0.1",
+  "description": "Common utilities",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadowmint/unreal-m-utils.git"
+  },
+  "files": [
+    "index.js",
+    "scripts",
+    "src"
+  ],
+  "author": "douglas.linder@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shadowmint/unreal-m-utils/issues"
+  },
+  "homepage": "https://github.com/shadowmint/unreal-m-utils",
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "dependencies": {
+  }
+}
