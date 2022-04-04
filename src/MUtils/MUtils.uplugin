@@ -21,7 +21,7 @@
 			"LoadingPhase": "PreLoadingScreen"
 		},
 		{
-			"Name": "MUtilsSample",
+			"Name": "MUtilsSamples",
 			"Type": "Editor",
 			"LoadingPhase": "PreLoadingScreen"
 		}

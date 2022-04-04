@@ -4,7 +4,7 @@
 
 #include "Modules/ModuleManager.h"
 
-class FTemplateModule : public IModuleInterface
+class FMUtilsSamplesModule : public IModuleInterface
 {
 public:
 

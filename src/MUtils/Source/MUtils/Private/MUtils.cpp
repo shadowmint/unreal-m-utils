@@ -1,16 +1,16 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "Template.h"
+#include "MUtils.h"
 
-#define LOCTEXT_NAMESPACE "FTemplateModule"
+#define LOCTEXT_NAMESPACE "FMUtilsModule"
 
-void FTemplateModule::StartupModule()
+void FMUtilsModule::StartupModule()
 {
 	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
 	
 }
 
-void FTemplateModule::ShutdownModule()
+void FMUtilsModule::ShutdownModule()
 {
 	// This function may be called during shutdown to clean up your module.  For modules that support dynamic reloading,
 	// we call this function before unloading the module.
@@ -19,4 +19,4 @@ void FTemplateModule::ShutdownModule()
 
 #undef LOCTEXT_NAMESPACE
 	
-IMPLEMENT_MODULE(FTemplateModule, Template)
+IMPLEMENT_MODULE(FMUtilsModule, MUtils)
